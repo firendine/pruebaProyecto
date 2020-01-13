@@ -1,0 +1,57 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather Sans';;
+    height: 100%;
+    background-color: #efefef;
+
+    &__contenedor-enlaces {
+        position: relative;
+        top: -30px;
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__enlace {
+        padding: 12%;
+        text-decoration: none;
+        color: #454545;
+        height: 100%;
+        width: 100%;
+        background-color: $colorPrincipal;
+    }
+    &__enlace:hover {
+        text-decoration: none;
+        color: #232323;
+        background-color: darken($colorPrincipal, 10);
+    }
+    &__icono{
+        width: 20px;
+        margin-right: 8px;
+    }
+
+    &__hamburguesa {
+        position: relative;
+        cursor: pointer;
+
+        z-index: 1000;
+        top: 10px;
+
+        left: 102%;
+
+        height: 30px;
+        width: 30px;
+
+        text-align: center;
+        font-size: 22px;
+        font-weight: bolder;
+        line-height: 30px;
+        color: #454545;
+
+        border: 2px #454545 solid;
+        background-color: white;
+        border-radius: 5px;
+    }
+}

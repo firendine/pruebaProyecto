@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: white;
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--derecho {
+            float: right;
+            text-align: right;
+            width: 15%;
+        }
+
+        &--izquierdo {
+            width: 10%;
+        }
+    }
+}

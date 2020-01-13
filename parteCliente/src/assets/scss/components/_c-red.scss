@@ -1,0 +1,19 @@
+.red {
+    width: 100%;
+    text-align: center;
+    padding: 2% 5%;
+    color: $colorSecundario;
+    font-weight: bolder;
+    font-size: 20px;
+
+    &__icono {
+        margin-right: 6px;
+    }
+
+    transition: 0.2s;
+
+    &:hover {
+        color: darken($colorSecundario, 10);
+        text-decoration: none;
+    }
+}
